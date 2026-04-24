@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# 📘 README - TP API (React App)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Description
 
-## Available Scripts
+Ce projet est une application web développée avec **React (Create React App)**.
+Il s'agit d’un TP permettant de consommer des données via une API en utilisant **Axios**, et d’afficher les résultats dans une interface utilisateur interactive.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🧰 Technologies utilisées
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* React.js
+* React DOM
+* React Scripts (CRA)
+* Axios (requêtes HTTP)
+* Testing Library (tests)
+* Web Vitals
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📁 Structure du projet
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* `src/` : code source de l’application React
+* `public/` : fichiers statiques
+* `package.json` : dépendances et scripts
+* `node_modules/` : dépendances installées
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Installation du projet
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 1. Cloner ou extraire le projet
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+cd tp-api
+```
 
-### `npm run eject`
+### 2. Installer les dépendances
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ▶️ Lancer le projet en mode développement
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm start
+```
 
-## Learn More
+L’application sera accessible sur :
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+http://localhost:3000
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🏗️ Build pour production
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm run build
+```
 
-### Analyzing the Bundle Size
+Le dossier `build/` contiendra la version optimisée de l’application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🧪 Lancer les tests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm test
+```
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🔌 API & Axios
 
-### Deployment
+Le projet utilise **Axios** pour envoyer des requêtes HTTP vers une API externe ou locale afin de récupérer et afficher les données dynamiquement.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## ⚙️ Scripts disponibles
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* `npm start` → lancer le serveur de développement
+* `npm run build` → build production
+* `npm test` → exécuter les tests
+* `npm run eject` → configuration avancée (irréversible)
+
+---
+
+##  Exemple d'execution 
+
+<img width="1366" height="768" alt="Capture d’écran du 2026-04-24 00-36-16" src="https://github.com/user-attachments/assets/4886616a-badd-4f56-bc08-5588314d1343" />
+
+
+## 👨‍💻 Auteur
+
+Ait Hmad Oussama 
+---
+
